@@ -17,7 +17,7 @@ function App() {
       <ModeToggler />
       <div>
         <header className="App-header">
-          <img src={logo} className="App-logo"></img>
+          <img src={logo} className="App-logo" alt="logo"></img>
           <Nav />
         </header>
         <section>

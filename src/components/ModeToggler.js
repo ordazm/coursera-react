@@ -5,7 +5,7 @@ function ModeToggler() {
 
   function handleClick() {
     darkModeOn = !darkModeOn;
-    if (darkModeOn == true) {
+    if (darkModeOn === true) {
       return console.log("DM is on");
     } else {
       return console.log("LM is on");
