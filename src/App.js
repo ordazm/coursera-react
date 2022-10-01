@@ -12,10 +12,10 @@ import Game from "./components/Game";
 
 function App() {
 	return (
-		<main>
-			<Game />
-			<ModeToggler />
+		<main className='App'>
 			<div>
+				<Game />
+				<ModeToggler />
 				<header className='App-header'>
 					<img src={logo} className='App-logo' alt='logo'></img>
 					<Nav />

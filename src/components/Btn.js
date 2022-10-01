@@ -15,7 +15,6 @@ function Btn() {
 	function clickHandler() {
 		return console.log("mouse over");
 	}
-
 	return <button onMouseOver={clickHandler}>Mouse Over</button>;
 }
 export default Btn;
