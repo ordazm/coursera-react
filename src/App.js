@@ -11,30 +11,30 @@ import ModeToggler from "./components/ModeToggler";
 import Game from "./components/Game";
 
 function App() {
-  return (
-    <main>
-      <Game />
-      <ModeToggler />
-      <div>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo"></img>
-          <Nav />
-        </header>
-        <section>
-          <Btn />
-          <Promo name="Michelle" lastName="Ordaz" />
-        </section>
-        <section>
-          <Intro1 />
-          <Intro2 />
-          <Intro3 />
-        </section>
-        <footer>
-          <Footer />
-        </footer>
-      </div>
-    </main>
-  );
+	return (
+		<main>
+			<Game />
+			<ModeToggler />
+			<div>
+				<header className='App-header'>
+					<img src={logo} className='App-logo' alt='logo'></img>
+					<Nav />
+				</header>
+				<section>
+					<Btn />
+					<Promo name='Michelle' lastName='Ordaz' />
+				</section>
+				<section>
+					<Intro1 />
+					<Intro2 />
+					<Intro3 />
+				</section>
+				<footer>
+					<Footer />
+				</footer>
+			</div>
+		</main>
+	);
 }
 
 export default App;
