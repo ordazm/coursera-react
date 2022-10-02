@@ -9,10 +9,24 @@ import Footer from "./components/Footer";
 import Btn from "./components/Btn";
 import ModeToggler from "./components/ModeToggler";
 import Game from "./components/Game";
+import Child from "./components/Child";
+
+/** ------week 2 - HOOKS */
+import { useState } from "react";
+/** ------week 2 - HOOKS */
 
 function App() {
+	/**---------------------------- week 2 Children and Data ----------------------------*/
+	const date = new Date();
+
 	return (
 		<main className='App'>
+			{/**------------ week 2 Children and Data ------------------- */}
+			<div>
+				<h1>Insert the Child component here.</h1>
+				<Child message={date.toLocaleTimeString()} />
+			</div>
+			{/**-----------week 1-2-------------------------------------- */}
 			<div>
 				<Game />
 				<ModeToggler />
